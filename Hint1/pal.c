@@ -142,7 +142,7 @@ void user_game_palindrome(int pal_num) {
 		c = ask_for_command();
 		process_movement(a, pp, pnm, c);
 
-	} while (is_pal(a) == False);
+	} 
 
 	print_status(a, p, num_mov);
 		printf("------------------\n");
